@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	double a,b,c,d;
+	scanf("%lf%lf%lf" ,&a,&b,&c);
+	d = b * b - 4 * a * c;
+	if (d < 0)
+		printf("no");
+	else if (d > 0)
+	{
+		double x1 = (-b - sqrt(d)) / (a + a);
+		double x2 = (-b + sqrt(d)) / (a + a);
+		printf("%.2lf %.2lf", x2, x1);
+
+	}
+	else if (d == 0)
+	{
+		double x3 = (-b - sqrt(d)) / (a + a);
+		printf("%.2lf", x3);
+	}
+	return 0;
+}
+
