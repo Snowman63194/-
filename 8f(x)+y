@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	char n;
+	int y,a;
+	scanf_s("%c", &n,1);
+	scanf_s("%d", &y);
+	if (n >= 97)
+	{
+		a = -(n - 96);
+		y += a;
+		printf("%d\n", y);
+	}
+	else if (n < 97)
+	{
+		a = n - 64;
+		y += a;
+		printf("%d\n", y);
+
+	}
+
+	return 0;
+}
+
+
