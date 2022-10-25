@@ -1,0 +1,130 @@
+#include<stdio.h>
+int main()
+{
+	printf("0    -17\n");
+	printf("20    -6\n");
+	printf("40    4\n");
+	printf("60    15\n");
+	printf("80    26\n");
+	printf("100    37\n");
+	printf("120    48\n");
+	printf("140    60\n");
+	printf("160    71\n");
+	printf("180    82\n");
+	printf("200    93\n");
+	printf("220    104\n");
+	printf("240    115\n");
+	printf("260    126\n");
+	printf("280    137\n");
+	printf("300    148\n");
+
+	return 0;
+
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+	int c;
+	int f=0;
+	c = (f - 32)*5/9;
+    printf("%d    %d\n", f, c);
+
+	int a;
+	int b= 20;
+	a = (b - 32) * 5 / 9;
+	printf("%d    %d\n", b, a);
+
+	int e;
+	int g = 40;
+	e = (g - 32) * 5 / 9;
+	printf("%d    %d\n", g, e);
+
+	int cz;
+	int ft = 60;
+	cz = (ft - 32) * 5 / 9;
+	printf("%d    %d\n", ft, cz);
+
+	int co;
+	int fo = 80;
+	co = (fo - 32) * 5 / 9;
+	printf("%d    %d\n", fo, co);
+
+	int cp;
+	int fp = 100;
+	cp = (fp - 32) * 5 / 9;
+	printf("%d    %d\n", fp, cp);
+
+	int cl;
+	int fl = 120;
+	cl = (fl - 32) * 5 / 9;
+	printf("%d    %d\n", fl, cl);
+
+	int cw;
+	int fw = 140;
+	cw = (fw - 32) * 5 / 9;
+	printf("%d    %d\n", fw, cw);
+
+	int cq;
+	int fq = 160;
+	cq = (fq - 32) * 5 / 9;
+	printf("%d    %d\n", fq, cq);
+
+	int ct;
+	int fm = 180;
+	ct = (fm - 32) * 5 / 9;
+	printf("%d    %d\n", fm, ct);
+
+	int cf;
+	int ff = 200;
+	cf = (ff - 32) * 5 / 9;
+	printf("%d    %d\n", ff, cf);
+
+	int cg;
+	int fg = 220;
+	cg = (fg - 32) * 5 / 9;
+	printf("%d    %d\n", fg, cg);
+
+	int cy;
+	int fu = 240;
+	cy = (fu - 32) * 5 / 9;
+	printf("%d    %d\n", fu, cy);
+
+	int ca;
+	int fr = 260;
+	ca = (fr - 32) * 5 / 9;
+	printf("%d    %d\n", fr, ca);
+
+	int cr;
+	int fa = 280;
+	cr = (fa - 32) * 5 / 9;
+	printf("%d    %d\n", fa, cr);
+
+	int w;
+	int i = 300;
+	w = (i - 32) * 5 / 9;
+	printf("%d    %d\n", i, w);
+
+	return 0;
+}
+
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int c;
+	int f;
+	for (f = 0;f <= 300;f += 20)
+	{
+		c = (f - 32) * 5 / 9;
+		printf("%d    %d\n", f, c);
+	}
+
+	return 0;
+}
