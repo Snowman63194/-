@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int n;
+	double i;
+	double s=0;
+	double k;
+	scanf("%d", &n);
+	for (i=1;i <= n;i=i++)
+	{
+		k= 1 / i;
+		s = s + k;
+	}
+	printf("%.3lf\n", s);
+
+	return 0;
+}
