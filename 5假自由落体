@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int n, a;
+	double i = 0;
+	double x;
+	scanf("%lf%d" ,&x,&n);
+	a = 2;
+	i += x;
+	while (a <= n)
+	{
+		x = x / 2;
+		i = i+x + x;
+		a++;
+	}
+	printf("%.6lf\n", i);
+	
+	return 0;
+}
