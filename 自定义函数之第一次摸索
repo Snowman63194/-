@@ -1,0 +1,66 @@
+自己摸索的自定义加法：
+#include<stdio.h>
+int add(int a,int b)
+{
+	int t=0;
+	t=t+a+b;
+	return t;
+}
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("%d\n",add(a,b));
+}
+
+
+题目：自定义n次幂
+#include<stdio.h>
+int Power(int x, int n)
+{
+	int i,s;
+	s=1;
+	for(i=1;i<=n;i++)
+	{
+	s=s*x;	
+	}
+	return s;
+}
+int main()
+{
+	int x, n;
+	scanf("%d %d", &x, &n);
+	printf("%d\n", Power(x, n));
+	
+	return 0;
+}
+
+
+
+
+上面是先声明+定义，再运行主函数
+也可以先声明，再运行主函数，底下附上定义
+像这样：
+#include<stdio.h>
+int Power(int x, int n);
+int main()
+{
+	int x, n;
+	scanf("%d %d", &x, &n);
+	printf("%d\n", Power(x, n));
+	
+	
+}
+int Power(int x, int n)
+{
+	int i,s;
+	s=1;
+	for(i=1;i<=n;i++)
+	{
+	s=s*x;	
+	}
+	return s;
+}
+总之就是记住先声明就行！
+
+（p.s.main函数中好像有没有return0都没事，为什么呢）
