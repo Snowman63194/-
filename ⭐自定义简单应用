@@ -1,0 +1,27 @@
+输入一个数，求其各个位之和（要求使用自定义函数）
+
+
+#include<stdio.h>
+int calcSumOfNumber(int x);
+int main()
+{
+	int x;
+	scanf("%d", &x);
+	printf("%d\n", calcSumOfNumber(x));
+	
+	return 0;
+}
+int calcSumOfNumber(int x)
+{
+	int s=0;
+	while(x!=0)
+	{
+		s+=x%10;
+		x=x/10;
+	}	
+	
+	return s;
+}
+
+注意一下这个各个位之和的写法我参考的网上……精髓是x=x/10可以把数值往前推一位，然后取个位（x%10）就可以顺利拿下各个位的数字了
+……
