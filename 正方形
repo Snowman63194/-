@@ -1,0 +1,17 @@
+输入只有一行，该行只有一个字符。
+输出一个边长为4的正方形，正方形的四条边均由输入的字符构成，正方形的内部由空格构成。
+
+
+
+#include<stdio.h>
+int main()
+{
+	char n;
+	scanf("%c",&n);
+	printf("%c%c%c%c\n",n,n,n,n);
+	printf("%c  %c\n",n,n);
+	printf("%c  %c\n",n,n);
+	printf("%c%c%c%c\n",n,n,n,n);
+	
+		return 0;
+}
